@@ -6,7 +6,7 @@ For the UI MUI Material Libary was used.
 # API 
 Rapid API was used to fetch JSON with axios, and then data is displayed in respective componenets 
 
-Moreover a search option is also available which takes a string a request data against RapidAPI's specific end point, and the returned data is displyed using, useEffect hook
+Moreover a search option is also available which takes a string a request data against RapidAPI's specific end point, and the returned data is displyed using, useState hook
 
 In the project directory, you can run:
 
@@ -16,6 +16,6 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### Deployment
-
+The live version of this app can visited at https://youtube5clone.netlify.app
 
 

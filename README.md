@@ -6,7 +6,7 @@ For the UI MUI Material Libary was used.
 # API 
 Rapid API was used to fetch JSON with axios, and then data is displayed in respective componenets 
 
-# Moreover a search option is also available which takes a string a request data against RapidAPI's specific end point, and the returned data is displyed using, useEffect hook
+Moreover a search option is also available which takes a string a request data against RapidAPI's specific end point, and the returned data is displyed using, useEffect hook
 
 In the project directory, you can run:
 

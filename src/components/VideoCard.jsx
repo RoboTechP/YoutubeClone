@@ -9,7 +9,7 @@ import { demoThumbnailUrl, demoVideoUrl, demoVideoTitle, demoChannelUrl, demoCha
 const VideoCard = ({ video: { id: { videoId }, snippet } }) => {
 
 const snipp = snippet?.thumbnails?.high?.url 
-const videourl = "https://" + snipp.slice(8);
+const videourl = "https://" + snipp?.slice(8);
 console.log ("This is the snipping url " + videourl)
 
 return (  
